@@ -1,13 +1,13 @@
-package com.example;
+package com.dprc;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class DisablePrayerRightClickTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(DisablePrayerRightClick.class);
 		RuneLite.main(args);
 	}
 }
